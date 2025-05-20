@@ -13,7 +13,7 @@ const lagu = [
     "Persona 3 Reload",
     7078,
     14080,
-    "png/Persona.png",
+    "png/persona.png",
     "png/piringan.png",
     "https://open.spotify.com/track/4pjFNyjGaoKgLTnndISP6V?si=672915338cad41a7",
   ],
