@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "press start 2P", sans-serif;
+  color: #ffffff;
+  background-image: url(png/back.jpg);
+  font-size: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body h1 {
+  text-align: center;
+}
+body h1 a {
+  text-decoration: none;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+  gap: 0% 0% 0% 15%;
+  padding: 1rem 0rem 1rem 2rem;
+  flex-wrap: wrap;
+  gap: 3rem 1rem;
+}
+#container2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+  gap: 0% 0% 0% 15%;
+  padding: 1rem 0rem 1rem 2rem;
+  flex-wrap: wrap;
+  gap: 3rem 1rem;
+}
+#container2 a {
+  text-decoration: none;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 16px;
+  border: solid rgb(121, 55, 55);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  animation: Color 7500ms infinite;
+  -webkit-animation: Color 7500ms infinite;
+  -moz-animation: Color 7500ms infinite;
+}
+#container a {
+  text-decoration: none;
+  color: #ecaeae;
+}
+.card:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+.card img {
+  width: 21rem;
+  animation-name: spin;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer div {
+  display: flex;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Color {
+  0% {
+    color: #4d6b2d;
+  }
+
+  20% {
+    color: #2a6e86;
+  }
+
+  40% {
+    color: #b98d1d;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #861e29;
+  }
+
+  100% {
+    color: #42258d;
+  }
+}
+
+@-moz-keyframes Color {
+  0% {
+    color: #4d6b2d;
+  }
+
+  20% {
+    color: #2a6e86;
+  }
+
+  40% {
+    color: #b98d1d;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #861e29;
+  }
+
+  100% {
+    color: #42258d;
+  }
+}
+@-webkit-keyframes Color {
+  0% {
+    color: #4d6b2d;
+  }
+
+  20% {
+    color: #2a6e86;
+  }
+
+  40% {
+    color: #b98d1d;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #861e29;
+  }
+
+  100% {
+    color: #42258d;
+  }
+}
